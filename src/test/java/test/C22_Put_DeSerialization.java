@@ -63,9 +63,9 @@ public class C22_Put_DeSerialization extends JsonPlaceHolderBaseUrl {
         assertEquals(expBodyMap.get("body"),respMap.get("body"));
         assertEquals(expBodyMap.get("title"),respMap.get("title"));
 
+
+
+
     }
-
-
-
 
 }
