@@ -2,11 +2,11 @@ package test;
 
 import io.restassured.http.ContentType;
 import io.restassured.response.Response;
-
 import org.junit.Test;
 
 import static io.restassured.RestAssured.given;
-import static org.hamcrest.Matchers.*;
+import static org.hamcrest.Matchers.equalTo;
+import static org.hamcrest.Matchers.nullValue;
 
 
 public class C07_Get_BodyTekrarlardanKurtulma {

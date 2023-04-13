@@ -2,12 +2,10 @@ package test;
 
 import baseUrl.HerokuApBaseUrl;
 import io.restassured.response.Response;
-import org.hamcrest.Matchers;
 import org.junit.Test;
 
 import static io.restassured.RestAssured.given;
 import static org.hamcrest.CoreMatchers.hasItem;
-import static org.hamcrest.Matchers.greaterThanOrEqualTo;
 import static org.hamcrest.Matchers.hasSize;
 
 public class C17_BaseUrlHerokuappQueryParam extends HerokuApBaseUrl {

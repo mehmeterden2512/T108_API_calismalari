@@ -3,12 +3,10 @@ package test;
 import baseUrl.JsonPlaceHolderBaseUrl;
 import io.restassured.http.ContentType;
 import io.restassured.response.Response;
-import org.junit.Assert;
 import org.junit.Test;
 import testDataKlasoru.TestDataJsonPlaceHolder;
 
 import java.util.HashMap;
-import java.util.Objects;
 
 import static io.restassured.RestAssured.given;
 import static org.junit.Assert.assertEquals;

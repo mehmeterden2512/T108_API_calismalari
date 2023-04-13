@@ -2,7 +2,6 @@ package test;
 
 import baseUrl.JsonPlaceHolderBaseUrl;
 import io.restassured.response.Response;
-import org.hamcrest.Matchers;
 import org.junit.Test;
 
 import static io.restassured.RestAssured.given;
